@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+} 
+body{
+    width: 99%;
+    background-color: #3D087B;
+    
+}
+.container{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left:50px;
+    margin-top: 40px;
+}
+.leftcontainer{
+    position: relative;
+    /* display: flex; */
+    /* border: 2px solid red;  */
+
+}
+.rightcontainer{
+    /* display: flex; */
+    position: relative;
+    left:150px;
+    /* top:40px; */
+    /* border: 2px solid red; */
+}
+.clock{
+    position: absolute;
+    left:40px;
+    top: 30px;
+}
+.card1{
+    border: 1px solid #EDEDED ;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 400px;
+    padding: 20px;
+    color: #3D087B;
+    position:absolute;
+    left: 40px;
+    top: 100px;
+}
+.selectfrom{
+    border: 2px solid #EDEDED;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 70px;
+}
+label{
+    position: relative;
+    left: 40px;
+}
+#lunchtime{
+    left: 88px;
+}
+#nap{
+    left: 99px;
+}
+.card2{
+    position: relative;
+    top: 340px;
+    left: 40px;
+    height: 70px;
+    width: 450px;
+    border: 1px solid #EDEDED;
+    color: #FFFFFF;
+    background-color:rgb(126, 36, 209);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.card3{
+    position: absolute;
+   left: 40px;
+   top: 500px;
+   
+    
+}
+.button{
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+    color: white;
+    font-size: 100%;
+}
+.note{
+    border: 1px solid #EDEDED;
+    width: 220px;
+    left: 225px;
+    top: -45px;
+    border-radius: 7px;
+    color: #F25CFE;
+    background-color:rgb(126, 36, 209);
+    position: relative;
+    /* text-align: center; */
+}
+.card4{
+    height: 40px;
+    width: 500px;
+    padding: 20px;
+    position: relative;
+    /* left: 80px; */
+    top: 20px;
+    color: #8E53F0;
+    border: 1px solid #EDEDED;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.card5{
+    position: relative;
+    
+    top: 10px;
+   
+}
+.cpy{
+   
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #B85EBF;
+    
+}
+.time{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 330px;
+    height: 70px;
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    z-index: 1;
+}
+.hour{
+    width: 50px;
+    height: 58px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-image: url(./timeline.png);
+  
+
+}
+.mins{
+    width: 50px;
+    height: 58px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-image: url(./timeline.png);
+}
+.sec{
+    width: 50px;
+    height: 58px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-image: url(./timeline.png);
+}
+.ampm{
+    width: 50px;
+    height: 58px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-image: url(./am\ bg.png);
+}
+.item{
+    height: 100px;
+    width: 300;
+    border: 1px solid #FFFFFF;
+}
+h5{
+    color:#A983D6;
+   
+}
+.icons{
+    border: 1px solid;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    position: relative;
+    top:70px;
+    color: #858585;
+    padding: 15px;
+    
+}
+.grid{
+    gap: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.time1{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 330px;
+    height: 70px;
+    background-color: white;
+    margin-top: 150px;
+    display: flex;
+    padding: 10px;
+    z-index: 1;
+}
+.txt{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+#parent{
+    border:1px solid #DDF5FF;
+    width: 200px;
+    height: 30px;
+    color: #00A5ECDE;
+    background-color: #DDF5FF;
+   
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:500px) and (min-width:250px) {
+    .container{
+        flex-direction: column;
+    }
+    
+
+}
